@@ -28,6 +28,124 @@
 
     <!-- Preloader Script -->
     <script src="js/scripts.js"></script>
+
+    <style>
+        /* Fonts */
+        @font-face {
+            font-family: "Voga";
+            src: url("fonts/Voga-Medium.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Panel-Sans";
+            src: url("/fonts/Panel-Sans-Regular.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Panel-Sans-Thin";
+            src: url("/fonts/Panel-Sans-Light.otf") format("opentype");
+            font-weight: lighter;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Panel-Sans-Bold";
+            src: url("/fonts/Panel-Sans-Bold.otf") format("opentype");
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        body {
+            background-color: rgb(255, 242, 226);
+            margin: 0px;
+        }
+
+        /* Top Bar */
+        .top-bar {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+        }
+
+        .logo-box {
+            width: 30%;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-box #logo-image {
+            width: 20%;
+            padding-left: 10px;
+        }
+
+        .logo-box #logo-text {
+            font-family: "Panel-Sans-Bold", sans-serif;
+            color: rgb(33, 33, 33);
+            letter-spacing: -2px;
+            font-size: 2vw;
+        }
+
+        .menu-right {
+            width: 40%;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+
+        .menu-right #menu-text {
+            font-family: "Panel-Sans-Thin", sans-serif;
+            font-size: 1.8vw;
+            margin-left: 1vw;
+            margin-right: 1vw;
+        }
+
+        .menu-right a {
+            color: rgb(33, 33, 33);
+            text-decoration: none;
+            transition: font-size 0.5s ease;
+        }
+
+        .menu-right a:hover {
+            font-size: 2vw;
+        }
+
+        /* Welcom Section */
+        .welcome {
+            width: 100vw;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .portrait {
+            width: 20%;
+            padding-left: 20%;
+        }
+
+        .bottom-cover {
+            background-color: rgb(253, 198, 255);
+            width: 100%;
+            height: 15%;
+            position: absolute;
+            bottom: 0px;
+        }
+
+        .section {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+    </style>
 </head>
 
 <body>
