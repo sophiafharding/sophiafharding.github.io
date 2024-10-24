@@ -45,9 +45,9 @@ function drawWave() {
 }
 
 // Resize canvas if window size changes and adjust for DPI
-window.addEventListener("resize", () => {
-  resizeCanvas();
-  drawWave();
-});
+// window.addEventListener("resize", () => {
+//   resizeCanvas();
+//   drawWave();
+// });
 
 drawWave();

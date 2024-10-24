@@ -94,15 +94,39 @@ body {
 /* Welcome Section */
 .welcome {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .portrait {
-  width: 20%;
-  padding-left: 20%;
+  width: 25vw;
+  padding-left: 15vw;
+  padding-bottom: 3vh;
   z-index: -2;
+}
+.burst {
+  position: absolute;
+  top: 43vh; /* Center vertically */
+  left: 73vw; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjusts the position to center */
+  z-index: -3; /* Puts the burst behind the portrait */
+  animation: rotate 40s linear infinite; /* Animation for rotation */
+  width: 40%;
+}
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.hi {
+  font-family: "Panel-Sans", sans-serif;
+  color: rgb(33, 33, 33);
+  font-size: 5vw;
+  padding-bottom: 50vh;
 }
 
 .section {
