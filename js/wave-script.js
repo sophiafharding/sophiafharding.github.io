@@ -35,7 +35,7 @@ function drawWave() {
   ctx.lineTo(0, canvas.height); // Left bottom corner
   ctx.closePath();
 
-  ctx.fillStyle = "#ffb1ff";
+  ctx.fillStyle = "#efc3ca";
   ctx.fill();
 
   // Move the wave to the left

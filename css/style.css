@@ -25,7 +25,8 @@
 }
 
 body {
-  background-color: rgb(255, 242, 226);
+  /* #f8e8e2   */
+  background-color: #f3eee8;
   margin: 0px;
   overflow: hidden;
 }
@@ -37,6 +38,18 @@ body {
   height: 100vh;
   top: 80vh;
   z-index: -1;
+}
+
+img,
+a,
+h2 {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -o-user-select: none;
 }
 
 /* Top Bar */
@@ -56,6 +69,7 @@ body {
 .logo-box #logo-image {
   width: 20%;
   padding-left: 10px;
+  cursor: pointer;
 }
 .logo-box #logo-text {
   font-family: "Panel-Sans-Bold", sans-serif;
