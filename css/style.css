@@ -30,7 +30,7 @@ body {
   overflow: hidden;
 }
 
-canvas {
+#sineCanvas {
   display: block;
   position: absolute;
   width: 100vw;
@@ -91,7 +91,7 @@ canvas {
   text-decoration: underline;
 }
 
-/* Welcom Section */
+/* Welcome Section */
 .welcome {
   width: 100vw;
   height: 90vh;

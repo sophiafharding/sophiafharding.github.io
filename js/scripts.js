@@ -1,7 +1,7 @@
 // Close preloader after page is loaded
 window.addEventListener("load", function () {
   document.querySelector(".pre-loader").className += " hidden";
-  setActiveLink(); // Call setActiveLink on page load
+  setTimeout(setActiveLink, 500); // Call setActiveLink after 500 milliseconds
 });
 
 // Function to set the 'active' class based on the current URL
