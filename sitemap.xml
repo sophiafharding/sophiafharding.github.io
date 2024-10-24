@@ -7,7 +7,18 @@
 
 <url>
   <loc>https://sophiafharding.github.io/</loc>
-  <lastmod>2024-10-22T06:38:37+00:00</lastmod>
+  <lastmod>2024-10-24T17:31:56+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://sophiafharding.github.io/resume.html</loc>
+  <lastmod>2024-10-24T17:31:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sophiafharding.github.io/index.html</loc>
+  <lastmod>2024-10-24T17:31:56+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 
 
