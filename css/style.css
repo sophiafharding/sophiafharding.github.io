@@ -67,14 +67,14 @@ h2 {
   align-items: center;
 }
 .logo-box #logo-image {
-  width: 20%;
+  width: 14%;
   padding-left: 10px;
   cursor: pointer;
 }
 .logo-box #logo-text {
   font-family: "Panel-Sans-Bold", sans-serif;
   color: rgb(33, 33, 33);
-  letter-spacing: -2px;
+  letter-spacing: -0.15vw;
   font-size: 2vw;
 }
 
