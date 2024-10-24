@@ -39,7 +39,7 @@ function drawWave() {
   ctx.fill();
 
   // Move the wave to the left
-  waveOffset -= speed * frequency;
+  //waveOffset -= speed * frequency;
 
   requestAnimationFrame(drawWave);
 }
