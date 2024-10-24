@@ -1,7 +1,7 @@
 // Close preloader after page is loaded
 window.addEventListener("load", function () {
   document.querySelector(".pre-loader").className += " hidden";
-  setTimeout(setActiveLink, 500); // Call setActiveLink after 500 milliseconds
+  setActiveLink();
 });
 
 // Function to set the 'active' class based on the current URL
@@ -14,10 +14,3 @@ function setActiveLink() {
     }
   });
 }
-
-// Add click event listener to each link to handle immediate changes
-document.querySelectorAll(".menu-right a").forEach((link) => {
-  link.addEventListener("click", function () {
-    setActiveLink();
-  });
-});
