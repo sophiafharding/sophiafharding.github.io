@@ -1,7 +1,6 @@
 // Close preloader after page is loaded
 window.addEventListener("load", function () {
   document.querySelector(".pre-loader").className += " hidden";
-  setActiveLink();
 });
 
 // Function to set the 'active' class based on the current URL
@@ -14,3 +13,4 @@ function setActiveLink() {
     }
   });
 }
+setActiveLink();
