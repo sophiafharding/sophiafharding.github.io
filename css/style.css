@@ -101,7 +101,7 @@ body {
 }
 .portrait {
   width: 25vw;
-  padding-left: 15vw;
+  padding-right: 2vw;
   padding-bottom: 3vh;
   z-index: -2;
 }
@@ -110,7 +110,7 @@ body {
   top: 43vh; /* Center vertically */
   left: 73vw; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjusts the position to center */
-  z-index: -3; /* Puts the burst behind the portrait */
+  z-index: -3;
   animation: rotate 40s linear infinite; /* Animation for rotation */
   width: 40%;
 }
@@ -126,7 +126,21 @@ body {
   font-family: "Panel-Sans", sans-serif;
   color: rgb(33, 33, 33);
   font-size: 5vw;
-  padding-bottom: 50vh;
+  margin-bottom: 0px;
+  padding-left: 3vw;
+}
+.about-text {
+  font-family: "Panel-Sans", sans-serif;
+  color: rgb(33, 33, 33);
+  font-size: 1.5vw;
+}
+.left-text {
+  width: 40vw;
+  height: 70vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40vh;
+  padding-right: 5vw;
 }
 
 .section {
