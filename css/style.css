@@ -39,11 +39,11 @@ body {
   position: absolute;
   width: 60%;
   left: 20%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: sans-serif;
+  padding-bottom: 5vh;
 }
 .resume h1 {
   font-size: 5vw;
@@ -54,9 +54,27 @@ body {
   font-size: 1.5vw;
   margin: 10 0 0 0;
 }
-.resume h1 {
-  font-size: 5vw;
+.resume h3 {
+  width: 100%;
+  justify-self: left;
+  padding-left: 4vw;
+  font-size: 1.3vw;
   margin: 0 0 0 0;
+}
+.resume p {
+  width: 100%;
+  justify-self: left;
+  padding-left: 4vw;
+}
+
+.resume-split {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vh;
+}
+.resume-split .box {
+  width: 50%;
 }
 
 #sineCanvas {
@@ -64,7 +82,7 @@ body {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  top: 80vh;
+  top: 84vh;
   z-index: -1;
 }
 
@@ -95,8 +113,9 @@ h2 {
   align-items: center;
 }
 .logo-box #logo-image {
-  width: 18%;
+  width: 15%;
   padding-left: 10px;
+  padding-right: 10px;
   cursor: pointer;
 }
 .logo-box #logo-text {
@@ -169,7 +188,7 @@ h2 {
   color: rgb(33, 33, 33);
   font-size: 5vw;
   margin-bottom: 0px;
-  padding-left: 3vw;
+  margin-top: 10vw;
 }
 .about-text {
   font-family: sans-serif;
