@@ -1,6 +1,7 @@
 // Close preloader after page is loaded
 window.addEventListener("load", function () {
   document.querySelector(".pre-loader").className += " hidden";
+  history.pushState({}, "", "/");
 });
 
 // Function to set the 'active' class based on the current URL
